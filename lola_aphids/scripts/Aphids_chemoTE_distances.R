@@ -7,9 +7,7 @@ library(rstatix)
 
 
 
-# Calcul des distances de Kimura entre chaque copie d'un TE particulier et le TE consensus
-
-setwd("/home/aurelie/Dropbox/Post-Doc_ECLECTIC/8_Aphids_comparative_genomic/aphids_kimura/")
+# Calcul Kimura distances between TE copies and consensus
 
 # List of enriched transposable elements
 
