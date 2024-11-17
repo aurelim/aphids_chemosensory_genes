@@ -145,7 +145,7 @@ write.table(Count_TE, file = paste0(path, "results/Count_TE.csv"), row.names = F
   
 
 
-fig2_B = Count_genes %>% 
+fig3_A = Count_genes %>% 
   ggplot(aes(x = n, y = TE_id, fill = relationship))+
   geom_bar(stat = "identity")+
   facet_grid(species~Gene_fam, scales = "free_y")+
@@ -178,8 +178,8 @@ fig2_B = Count_genes %>%
   theme_linedraw()+
   theme(strip.background = element_rect(fill = "grey80", colour = "grey30"),
         strip.text = element_text(color = "black"))
-fig2_B
 
+ggsave(fig3_A, filename = "results/fig3_A.png", width = 15, height = 30, units = "cm")
 
 
 # Percentage of genes with associated TEs
