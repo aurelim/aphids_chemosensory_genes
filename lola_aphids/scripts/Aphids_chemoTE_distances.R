@@ -92,8 +92,6 @@ calculate_divergence <- function(K) {
   p <- pq[1]
   q <- pq[2]
   divergence <- sum(pq)*100
-    # Calcul percentage of divergence
-  # divergence <- (-1/2 * log(1 - 2*p - q) - 1/4 * log(1 - 2*q)) * 100
   return(divergence)
 }
 
