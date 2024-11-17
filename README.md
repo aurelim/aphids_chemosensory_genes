@@ -21,7 +21,7 @@ Then the genes coordinates were sorted and merged.
 
 The TE annotation files were converted to the appropriate bed format using an homemade perl script. 
 
-Once enriched TE list was obtained, we determined relationships between these TE and the genes of interest using an adapted TEgrip algorithm https://github.com/marieBvr/TEs_genes_relationship_pipeline. 
+Once enriched TE list was obtained, we determined relationships between these TE and the genes of interest using an adapted TEgrip algorithm https://github.com/marieBvr/TEs_genes_relationship_pipeline. We also calculated divergence between TE copies, using Kimura distance and compared TE copies associated to chemosensory genes and all TE copies. 
 
 
 
