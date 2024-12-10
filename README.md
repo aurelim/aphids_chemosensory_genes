@@ -1,6 +1,6 @@
-## Aphids chemosensory genes comparative genomic
+# Aphids chemosensory genes comparative genomic
 
-# Aphids chemosensory genes synteny
+## Aphids chemosensory genes synteny
 
 To explore chemosensory genes synteny, we used R package syntenet https://github.com/almeidasilvaf/syntenet.
 This analysis requires the gene annotation gff files and the files containing the protein sequences of the annotated genes, for all genes.
@@ -10,7 +10,7 @@ To explore synteny, we need the tabular output of diamond https://github.com/bbu
 We also explored mode of duplication of chemosensory genes using R package doubletrouble https://github.com/almeidasilvaf/doubletrouble
 which needs also tabular output of diamond. 
 
-# TE enrichment around chemosensory genes 
+## TE enrichment around chemosensory genes 
 
 To determine whether some transposable elements (TE) are found enriched around chemosensory genes, we used R package LOLA https://github.com/nsheff/LOLA. 
 
