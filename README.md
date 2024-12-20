@@ -1,7 +1,12 @@
 # Aphids chemosensory genes comparative genomic
 
-## Positive selection signatures in chemosensory genes
+## Selection signatures in chemosensory genes
 
+For each OR and GR families, CDS sequences were translated to protein sequences using Biopython https://biopython.org/docs/1.75/api/Bio.Seq.html, and aligned using MUSCLE https://drive5.com/muscle/. Phylogenetic tree was computed using protein sequences alignment and IQTREE http://www.iqtree.org/. 
+Codon alignment were obtained from proteins alignment and CDS sequences using PAL2NAL perl script, with paml as output format.
+Gaps were kept in codon alignments.
+
+These codon alignments were used as input for codeml paml, with the branch and the site model. The branch model assumes different ω ratios for different branches on the phylogeny and was used to detect positive selection acting on particular sequences of the subfamilies without averaging ω throughout the phylogenetic tree. We also tested the site model that can be used to identify positively selected sites in a multiple-sequence alignment. 
 
 
 ## Aphids chemosensory genes synteny
